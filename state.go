@@ -2,6 +2,7 @@ package lua
 
 /*
 #cgo LDFLAGS: -llua5.1
+#cgo CFLAGS: -I/usr/include/lua5.1 -I/usr/include/luajit-2.0
 
 #include <lua.h>
 #include <lauxlib.h>
